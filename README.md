@@ -1,38 +1,38 @@
 # AI-Powered Document Q&A System
-## Python • FastAPI • MongoDB • Groq/OpenAI • Docker
+### Python • FastAPI • MongoDB • Groq/OpenAI • Docker
 
 This project is an AI-driven backend application that allows users to:
 
-Upload documents (text/PDF)
+- Upload documents (text/PDF)
 
-Store extracted content in MongoDB
+- Store extracted content in MongoDB
 
-Ask questions related to uploaded documents
+- Ask questions related to uploaded documents
 
-Receive answers using LLMs (Groq/OpenAI)
+- Receive answers using LLMs (Groq/OpenAI)
 
-Run everything inside Docker
+- Run everything inside Docker
 
 
 
-🚀 Features
+## Features
 
-Document upload API
+- Document upload API
 
-MongoDB storage
+- MongoDB storage
 
-Query API powered by LLM
+- Query API powered by LLM
 
-Modular FastAPI backend
+- Modular FastAPI backend
 
-Fully containerized with Docker
-
-Ready for deployment (Render, Railway, AWS, etc.)
+- Fully containerized with Docker
 
 
 
 
-📁 Project Structure
+
+## Project Structure
+```bash
 AI-DOC-QA/
 │
 ├── app/
@@ -48,11 +48,12 @@ AI-DOC-QA/
 ├── Dockerfile
 ├── .gitignore
 └── README.md
+```
 
 
 
 
-🧰 Tech Stack
+## Tech Stack
 Layer	Technology
 Backend	FastAPI
 Language	Python 3.10+
@@ -64,20 +65,26 @@ Tools	Uvicorn, Pydantic
 
 
 
-### Setup Instructions
-1️⃣ Clone repo
+## Setup Instructions
+### Clone repo
+```bash
 git clone https://github.com/YOUR_USERNAME/AI-DOC-QA.git
 cd AI-DOC-QA
+```
 
-2️⃣ Create virtual environment
+### Create virtual environment
+```bash
 python -m venv venv
 source venv/bin/activate  # mac/linux
 venv\Scripts\activate     # windows
+```
 
-3️⃣ Install dependencies
+```bash
+Install dependencies
 pip install -r requirements.txt
+```
 
-4️⃣ Add your .env
+ Add your .env
 MONGO_URI=mongodb+srv://your...
 GROQ_API_KEY=your-key
 
