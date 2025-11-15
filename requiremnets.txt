@@ -1,0 +1,10 @@
+fastapi
+uvicorn[standard]
+pymongo
+python-dotenv
+groq
+pdfplumber
+scikit-learn
+numpy
+pydantic
+requests
